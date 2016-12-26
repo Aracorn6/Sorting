@@ -11,6 +11,7 @@ public class WordsController {
         Arrays.sort(words, charsComp);
         LengthComparator lengthComp = new LengthComparator();
         Arrays.sort(words, lengthComp);
+
         view.output(words, length);
     }
 }

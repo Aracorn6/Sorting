@@ -12,7 +12,6 @@ public class CharsComparator implements Comparator<String> {
         char[] characters = new char[]{'а', 'е', 'ё', 'и', 'о', 'у', 'ы', 'э', 'ю', 'я', 'А', 'Е', 'Ё', 'И', 'О', 'У', 'Ы', 'Э', 'Ю', 'Я'};
 
         for (int i = 0; i < firstStringElements.length; i++) {
-
             for (int a = 0; a < characters.length; a++) {
                 if (firstStringElements[i] == characters[a]) {
                     countFirstString++;
@@ -21,7 +20,6 @@ public class CharsComparator implements Comparator<String> {
         }
 
         for (int i = 0; i < secondStringElements.length; i++) {
-
             for (int a = 0; a < characters.length; a++) {
                 if (secondStringElements[i] == characters[a]) {
                     countSecondsString++;

@@ -6,6 +6,5 @@ public class ConsoleWordsView {
         for (int i = 0; i < length; i++) {
             System.out.println(words[i]);
         }
-
     }
 }
